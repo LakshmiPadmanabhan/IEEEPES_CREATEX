@@ -1,0 +1,92 @@
+body{
+    background-color: #fa7c05;
+}
+.jumbotron{
+    margin-top: 30px;
+    background-color:#FFA500;
+}
+.know {
+   background-color: #ffac68;
+   color: red;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 100;
+   padding: 5px;
+   margin-top:15px;
+   border-radius: 10px;
+   border-color:#fa7c05 ;
+   width:500px;
+}
+.drop button:hover{
+    background-color: #1be43f;
+}
+.learn{
+    margin-top: 15px;
+}
+.image1{
+    width:500px;
+    margin-left:20px;
+}
+#inserttext{
+    font-size: 20px;
+    font-family: serif;
+    margin: auto;
+    color:white;
+    margin-top:20px;
+}
+.pics{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.inst{
+    color:purple;
+    font-weight: 500;
+    font-family: garamond;
+}
+.headimage{
+    height:120px;
+    width:300px;
+    margin: 15px;
+}
+ul.a {
+    list-style-type: circle;
+    font-size: 16px;
+  }
+  .para{
+      margin-top:40px;
+      background-color: #9ee817;
+      margin-left:10px;
+      margin-right: 10px;
+      padding: 30px;
+  }
+.para h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.para p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: brown;
+    color:yellow;
+    font-family: cursive;
+    padding: 14px;
+    padding-left: 50px;
+}
+footer a:hover{
+    color:white;
+}
+@media screen and (max-width: 600px) {
+    .know{
+        width:100%;
+    }
+    .image1{
+        margin:0px;
+        max-width: 100%;
+    }
+    .jumbotron{
+        margin: 12px;
+    }
+}
